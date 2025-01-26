@@ -47,7 +47,7 @@ const App = () => {
           animate={{ opacity: 1, y: 0 }}
           className="flex-1 space-y-6"
         >
-          <h1 className="text-xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
             Take Control of <br />
             Your <span className="bg-blue-200">Kids</span>
           </h1>
