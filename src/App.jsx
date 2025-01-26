@@ -31,7 +31,7 @@ const App = () => {
       <nav className="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
         <div className="flex items-center justify-between px-4 lg:px-20 py-4">
           <div className="text-2xl font-bold text-blue-600">ParentGuard</div>
-          <button className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:-translate-y-1" onClick={downloadExtension}>
+          <button className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 cursor-pointer rounded-lg transition-all duration-300 hover:-translate-y-1" onClick={downloadExtension}>
             Download Now
           </button>
         </div>
@@ -44,16 +44,15 @@ const App = () => {
           animate={{ opacity: 1, y: 0 }}
           className="flex-1 space-y-6"
         >
-          <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
-            Keep Your Children Safe Online
+          <h1 className="text-xl lg:text-7xl font-bold leading-tight">
+          Take Control of Your Kids
           </h1>
           <p className="text-xl text-gray-600">
-            Complete parental control solution with scheduling, filtering, and
-            monitoring capabilities
+          Manage their screen time, filter content, and monitor what they do online.
           </p>
           <button
             onClick={downloadExtension}
-            className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-lg text-lg transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl"
+            className="bg-blue-600 hover:bg-blue-500 text-white px-8 cursor-pointer py-4 rounded-lg text-lg transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl"
           >
             Download Extension
           </button>
