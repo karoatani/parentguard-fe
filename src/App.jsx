@@ -10,6 +10,7 @@ import {
 
 const App = () => {
   function downloadExtension() {
+    // Url of the extension
     const downloadUrl =
       "https://www.dropbox.com/scl/fi/lxf8f5vlyy374hztqxoq3/dist.zip?rlkey=h3mnofqd42s0qc279vqpjmtkb&st=znacx12q&dl=1";
 
