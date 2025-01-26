@@ -31,7 +31,10 @@ const App = () => {
       <nav className="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
         <div className="flex items-center justify-between px-4 lg:px-20 py-4">
           <div className="text-2xl font-bold text-blue-600">ParentGuard</div>
-          <button className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 cursor-pointer rounded-lg transition-all duration-300 hover:-translate-y-1" onClick={downloadExtension}>
+          <button
+            className="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 cursor-pointer rounded-lg transition-all duration-300 hover:-translate-y-1"
+            onClick={downloadExtension}
+          >
             Download Now
           </button>
         </div>
@@ -45,10 +48,14 @@ const App = () => {
           className="flex-1 space-y-6"
         >
           <h1 className="text-xl lg:text-7xl font-bold leading-tight">
-          Take Control of Your Kids
+            Take Control of <br />
+            Your <span className="bg-blue-200">Kids</span>
           </h1>
-          <p className="text-xl text-gray-600">
-          Manage their screen time, filter content, and monitor what they do online.
+          <p className="text-xl leading-relaxed  text-gray-600 max-w-2xl">
+            Manage their screen time, filter inappropriate content, and monitor
+            their online activity—all from one easy-to-use platform. Stay
+            informed and in control, so you can ensure they have a safe,
+            balanced online experience.
           </p>
           <button
             onClick={downloadExtension}
