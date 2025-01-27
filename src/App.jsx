@@ -12,7 +12,7 @@ const App = () => {
   function downloadExtension() {
     // Url of the extension
     const downloadUrl =
-      "https://www.dropbox.com/scl/fi/guogoowqsoms0pwjefnui/parent_guard.zip?rlkey=acxelg8le4kksbtmp33tolq9s&st=yg4x6a0a&dl=1";
+      "https://www.dropbox.com/scl/fi/tkfiwkd3yami1l10ufsfl/parent-guard.zip?rlkey=w2gr3m1d27ipay6osc55dll0r&st=bf6wif3l&dl=1";
 
     // Create a temporary link element
     const link = document.createElement("a");
